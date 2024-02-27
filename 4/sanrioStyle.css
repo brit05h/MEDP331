@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: #f6edf5;
+  }
+  ul {
+    text-align: center;
+    color: #E097C1;
+    font-family: "Rubik Doodle Shadow";
+    column-count: 2; 
+    column-gap: 15px;
+  }
+  li {
+    padding-left: 20px; 
+    background-image: url('heart.png'); 
+    background-size: 20px; 
+    background-repeat: no-repeat; 
+    background-position: left center; 
+    line-height: 26px;
+    padding-left: 30px;
+    transition: transform 0.3s ease;
+  }
+  p{
+    font-family: "Rubik Doodle Shadow";
+    color: #E097C1;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  input[type=text] {
+    border: 2px solid #E097C1;
+    border-radius: 4px;
+    font-family: "Rubik Doodle Shadow";
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+  }
+  input[type=text]:hover{
+    text-align: center;
+  }
+  .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    font-family: "Rubik Doodle Shadow";
+    margin-top: 20px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+    background-color:#E097C1;
+    color:white;
+  }
+  button:hover{
+    transform: scale(1.1);
+    color: white;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #worlds img{
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  #worlds{
+    font-size: 20px;
+    font-family: "Rubik Doodle Shadow";
+    text-align: center;
+    
+  }
+  #display{
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik Doodle Shadow";
+  }
